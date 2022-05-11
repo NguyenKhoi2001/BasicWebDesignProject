@@ -1,0 +1,58 @@
+.genres {
+    width: 40em;
+    margin-top: 10%;
+    margin-left: -20em;
+    position: absolute;
+    left: 50%;
+}
+.genres tr {
+    height: 35px;
+}
+.genres td {
+    padding: 5px;
+    width: 70%;
+    position: relative;
+}
+.genres .g-item {
+    padding-left: 20%;
+}
+.genres td:first-child{
+    color: white;
+    font-size: 20px;
+    width: 20%;
+}
+.genres h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.seemore {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    right: 20%;
+    position: absolute;
+    background: url("../images/down-arrow.png");
+    background-size: cover;
+}
+.seemore:hover {
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.content {
+    display: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content img {
+    height: 90px;
+    width: 90px;
+}

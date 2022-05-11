@@ -1,0 +1,39 @@
+.reg-field, .log-field {
+    background-image: linear-gradient(to bottom right, orange, red);
+    border-radius: 10px;
+    height: 75%;
+    width: 75%;
+    margin: 10% 10% 0 15%;
+    position: absolute;
+}
+.log-field {
+    background-image: linear-gradient(to bottom right, rgb(51, 196, 51), rgb(13, 114, 13));
+}
+.reg-prompt, .log-prompt {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.appre {
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.rt {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(93, 137, 194), blue);
+    height: 50px;
+    width: 300px;
+    padding-top: 15px;
+    margin: 10px auto 0 auto;
+}
+.rt:hover {
+    background: rgb(151, 168, 190);
+}

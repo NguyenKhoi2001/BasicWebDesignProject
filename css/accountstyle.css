@@ -1,0 +1,122 @@
+.accountpage{
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.formcontainer{
+	background: white;
+	width: 600px;
+	height: 350px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 300px;
+	box-shadow: 0 0 20px 0 rgba(255,255,255,0);
+	overflow: hidden;
+	border: 2px solid orange;
+	border-radius: 50px;
+	z-index: 1;
+}
+.formcontainer-n{
+	background: white;
+	width: 600px;
+	height: 350px;
+	position: absolute;
+	text-align: center;
+	padding: 20px 0;
+	margin: 15% 30%;
+	box-shadow: 0 0 20px 0 rgba(255,255,255,0);
+	overflow: hidden;
+	border: 2px solid orange;
+	border-radius: 50px;
+	z-index: 1;
+}
+.formcontainer span, .formcontainer-n span{
+	font-weight: bold;
+	padding: 0 10px;
+	color: black;
+	cursor: pointer;
+	width: 200px;
+	display: inline-block;
+}
+.btn{
+	width: 150px;
+	height: 50px;
+	border: 2px solid black;
+	background: linear-gradient(-45deg,purple,yellow);
+	border-radius: 20px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.formbtn{
+	display: inline-block;	
+}
+.formcontainer form, .formcontainer-n form{
+	max-width: 600px;
+	padding: 0 20px;
+	position: absolute;
+	transition: transform 2s;
+}
+form input{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+form .btn{
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	margin: 10px 0;
+}
+form .btn:focus{
+	outline: none;
+}
+#loginform{
+	left: -700px;
+}
+#regform{
+	left: 0;
+}
+form a{
+	font-size: 20px;
+	color: orange;
+}
+#indicator{
+	width: 200px;
+	border: none;
+	background: orange;
+	height: 5px;
+	margin-top: 10px;
+	transform: translateX(200px);
+	transition: transform 2s;
+}
+.bt-holder {
+	padding-top: 85px;
+}
+.bt-holder form {
+	margin-left: 20%;
+}
+.bt-holder input {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(93, 137, 194), blue);
+    height: 50px;
+    width: 300px;
+    padding-top: 5px;
+    margin: 10px auto 0 auto;
+}
+.bt-holder input:hover {
+    background: rgb(155, 186, 226);
+	cursor: pointer;
+}

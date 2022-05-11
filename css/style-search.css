@@ -1,0 +1,33 @@
+.search-res {
+    width: 40em;
+    margin-top: 10%;
+    margin-left: -20em;
+    position: absolute;
+    left: 50%;
+}
+.search-res h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.search-res ul {
+    list-style-type: none;
+}
+.search-res ul li a img {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+.search-res ul li a p {
+    color: white;
+    font-size: 28px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.search-res ul li a p:hover {
+    text-decoration: underline;
+}
+.animation-area {
+    height: 200vh;
+}
